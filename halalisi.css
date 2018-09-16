@@ -1,0 +1,184 @@
+body {
+  margin:0;
+  font-family:"Hiragino Kaku Gothic ProN"
+}
+
+a {
+  text-decoration:none;
+}
+
+.container {
+  width:1170px;
+  padding:0 15px 0 15px;
+  margin:auto 0;
+
+}
+.top-wrapper {
+  background-image: url(https://cookbiz.jp/soken/core/wp-content/uploads/2017/05/Fotolia_136216908_S.jpg);
+  padding:180px 0 100px 0;
+  color:white;
+  background-size:cover;
+  text-align:center;
+}
+
+.top-wrapper h1 {
+  opacity:0.9;
+  font-size:45px;
+  letter-spaing:5px;
+}
+
+.top-wrapper p {
+  opacity:0.9;
+}
+
+.btn-wrapper {
+  padding:8px 24px 8px 24px;
+  color:white;
+  display:inline-block;
+  opacity:0.8
+  margin:20px 0 20px 0;
+}
+
+.signup {
+  background-color:#239b76;
+}
+
+.facebook {
+  background-color:#3b5998;
+  margin-right:10px
+}
+
+.twitter {
+  background-color:#55acee;
+}
+
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+}
+
+btn:hover {
+  opacity:1;
+}
+
+.fa {
+  margin-right:5px;
+}
+
+header {
+  height:65px;
+  width:100%;
+  background-color:rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.logo {
+  width:124px;
+  margin-top:20px;
+}
+
+.header-right {
+  float:right;
+  background-color:rgba(255, 255, 255, 0.3);
+  transition:all 0.5s;
+}
+
+.header-right:hover {
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height:65px;
+  padding:0 25px 0 25px;
+  color:white;
+  display:block;
+}
+
+.activity-wrapper {
+  height:500px;
+  padding-bottom:80px;
+  background-color:#f7f7f7;
+  text-align:center;
+}
+
+.heading {
+  padding:60px 30px 60px 30px;
+  color:#5f5d60;
+}
+
+.heading h2 {
+  font-weight:normal;
+}
+
+.activity {
+  float:left;
+  width:50%;
+}
+
+.activity-icon {
+  position:relative;
+}
+
+.activity-icon p {
+  position:absolute;
+  top:1px;
+  width:100%;
+  color:white;
+  font-size:25px;
+  background-color: rgba(255, 255, 128, .5);
+}
+
+.txt-contents {
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:20px;
+  color:black;
+
+}
+
+.message {
+  background-color: #5dca88;
+  padding:15px 40px 15px 40px;
+  cursor:pointer;
+  box-shadow:0 7px #1a7940;
+}
+
+.heading h3 {
+  font-weight:normal;
+}
+
+.message-wrapper {
+  border-bottom:1px solid #eee;
+  padding-bottom:80px;
+  text-align:center;
+
+}
+
+.message:active {
+  box-shadow: none;
+  position:relative;
+  top:7px;
+}
+
+footer img {
+  width:125px;
+}
+
+footer p {
+  color:#b3aeb5;
+  font-size:12px;
+}
+
+footer {
+  padding-top:30px;
+
+}
